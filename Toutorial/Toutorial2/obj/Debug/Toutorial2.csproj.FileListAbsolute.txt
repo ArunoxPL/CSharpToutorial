@@ -1,0 +1,6 @@
+E:\C#\Toutorial\Toutorial2\Toutorial2\bin\Debug\Toutorial2.exe.config
+E:\C#\Toutorial\Toutorial2\Toutorial2\bin\Debug\Toutorial2.exe
+E:\C#\Toutorial\Toutorial2\Toutorial2\bin\Debug\Toutorial2.pdb
+E:\C#\Toutorial\Toutorial2\Toutorial2\obj\Debug\Toutorial2.csprojResolveAssemblyReference.cache
+E:\C#\Toutorial\Toutorial2\Toutorial2\obj\Debug\Toutorial2.exe
+E:\C#\Toutorial\Toutorial2\Toutorial2\obj\Debug\Toutorial2.pdb
