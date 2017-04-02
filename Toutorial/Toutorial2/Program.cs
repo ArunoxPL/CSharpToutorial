@@ -10,7 +10,29 @@ namespace Toutorial2
     {
         static void Main(string[] args)
         {
-            System.Console.WriteLine("Witaj świecie !!!");
+            var Number = 10;
+
+            var IsNumber10 = false;
+            /*
+            if (Number == 10)
+            {
+                IsNumber10 = true;
+            }
+
+            else
+            {
+                IsNumber10 = false;
+            }
+            */
+            IsNumber10 = Number == 10 ? true : false;
+            Console.WriteLine("Number == 10 is {0}", IsNumber10);
+
+            //System.Console.WriteLine("Witaj świecie !!!");
+
+            
+
+
+            Console.ReadLine();
         }
     }
 }
