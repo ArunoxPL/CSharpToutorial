@@ -6,39 +6,27 @@ using System.Threading.Tasks;
 
 namespace Toutorial2
 {
+    class Kursy
+    {
+        public string tytul;
+        public double cena;
+        public int rozdzialy;
+        public string kategoria;
+        public void ustaw_tytul(string tytul_k)
+        {
+            tytul = tytul_k;
+            Console.WriteLine(tytul_k);
+        }
+    }
+
+
     class Program
     {
        
         static void Main(string[] args)
         {
-            var Number = 10;
-
-            var IsNumber10 = false;
-            /*
-            if (Number == 10)
-            {
-                IsNumber10 = true;
-            }
-
-            else
-            {
-                IsNumber10 = false;
-            }
-            */
-            IsNumber10 = Number == 10 ? true : false;
-            Console.WriteLine("Number == 10 is {0}", IsNumber10);
-            int[] liczby = { 1, 2, 3, 4};
-            foreach(int i in liczby)
-            {
-                Console.WriteLine(i);
-            }
-
-
-            //System.Console.WriteLine("Witaj świecie !!!");
-
-            
-
-
+            Kursy kursy = new Kursy();
+            kursy.ustaw_tytul(Console.ReadLine());
             Console.ReadLine();
         }
     }
